@@ -128,6 +128,10 @@ python 题.
 
 以后补.
 
+补好了.
+
+[GitHub](https://github.com/99-wood/OIcode/blob/main/CF/2021%20ICPC%20Asia%20Taiwan%20Online%20Programming%20Contest%20%26%20NEU%20training%202023%20Autumn%20Contest%2014%20(Individual%20only)/h.cpp)
+
 ## G ICPC Kingdom
 
 以后补
