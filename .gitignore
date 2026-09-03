@@ -8,6 +8,12 @@ db.json
 # Deploy
 .deploy_git/
 
+# Claude chat directory
+chat/
+
+# Data backups (kept locally only)
+backup/
+
 # Logs
 logs
 *.log

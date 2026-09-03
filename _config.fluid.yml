@@ -1,0 +1,51 @@
+#---------------------------
+# Fluid 主题覆盖配置（_config.fluid.yml）
+# 由 Hexo 自动加载并深度合并到 themes/fluid/_config.yml 之上，
+# 只保留与主题默认值不同的配置项，升级主题时保留此文件即可。
+#---------------------------
+
+# 导航栏
+navbar:
+  blog_title: "99_wood の Blog"
+
+# 首页
+index:
+  slogan:
+    text: ["欢迎来到 99_wood 的博客", "咕咕嘎嘎？", "我是跳蝻🦗"]
+
+# 文章页
+post:
+  meta:
+    # 估计阅读时长
+    min2read:
+      wpm: 50
+
+    # 浏览量计数
+    views:
+      enable: true
+
+  # 数学公式
+  math:
+    enable: true
+    engine: katex
+
+  # 评论插件
+  comments:
+    enable: true
+    type: waline
+
+# Waline
+waline:
+  serverURL: 'https://waline.99-wood.top/'
+  placeholder: 遗憾莫过于难忘你的背影，却找不到你来过的痕迹 ...
+  requiredMeta: ['nick', 'mail']
+
+# 友链页
+links:
+  comments:
+    enable: true
+    type: waline
+
+# 静态资源 CDN
+static_prefix:
+  waline: https://cdn.jsdelivr.net/npm/@waline/client@v3/dist/
